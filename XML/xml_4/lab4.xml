@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+	<group>
+		<groupmate>
+			<full_name>
+				<s_name>Алексеев </s_name>
+				<f_name>Илья </f_name>
+				<l_name>Владимирович </l_name>
+			</full_name>
+			<score>7.6</score>
+			<data>2000</data>
+		</groupmate>
+		<groupmate>
+			<full_name>
+				<s_name>Гончаренок </s_name>
+				<f_name>Павел </f_name>
+				<l_name>Владиславович </l_name>
+			</full_name>
+			<score>6.7</score>
+			<data>2000</data>
+		</groupmate>
+		<groupmate>
+			<full_name>
+				<s_name>Рябый </s_name>
+				<f_name>Антон </f_name>
+				<l_name>Александрович </l_name>
+			</full_name>
+			<score>6</score>
+			<data>1999</data>
+		</groupmate>
+		<groupmate>
+			<full_name>
+				<s_name>Давидовский </s_name>
+				<f_name>Кирилл </f_name>
+				<l_name>Александрович </l_name>
+			</full_name>
+			<score>4</score>
+			<data>1999</data>
+		</groupmate>
+	</group>

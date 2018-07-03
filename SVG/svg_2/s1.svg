@@ -1,0 +1,6 @@
+<animate xlink:href="#c4" attributeName="stroke-dashoffset" from="0" to="565" dur="20s" begin="click" fill="freeze" keyTimes="0;0.5;1" values="0;565;0"></animate>
+<animate xlink:href="#c4" attributeName="stroke-dasharray" from="565" to="565" dur="20s" begin="click" fill="freeze" keyTimes="0;0.5;1" values="565;0;565"></animate>
+
+
+
+repeatCount="indefinite"

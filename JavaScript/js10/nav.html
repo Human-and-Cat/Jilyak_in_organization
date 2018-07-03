@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>menu</title>
+	<link rel="stylesheet" href="bootstrap.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+	<div class="menu">
+		<ul id="nav">
+			<li class="">
+				<a href="#">Element 1</a>
+				<ul class="subnav">
+					<li class="subel"><a href="#">Sub element 1</a></li>
+					<li class="subel"><a href="#">Sub element 2</a></li>
+					<li class="subel"><a href="#">Sub element 3</a></li>
+				</ul>
+			</li>
+			<li class="">
+				<a href="#">Element 2</a>
+				<ul class="subnav">
+					<li class="subel"><a href="#">Sub element 1</a></li>
+					<li class="subel"><a href="#">Sub element 2</a></li>
+					<li class="subel"><a href="#">Sub element 3</a></li>
+				</ul>
+			</li>
+			<li class="">
+				<a href="#">Element 3</a>
+				<ul class="subnav">
+					<li class="subel"><a href="#">Sub element 1</a></li>
+					<li class="subel"><a href="#">Sub element 2</a></li>
+					<li class="subel"><a href="#">Sub element 3</a></li>
+				</ul>
+			</li>
+			<li class="">
+				<a href="#">Element 4</a>
+				<ul class="subnav">
+					<li class="subel"><a href="#">Sub element 1</a></li>
+					<li class="subel"><a href="#">Sub element 2</a></li>
+					<li class="subel"><a href="#">Sub element 3</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<script>
+		$(document).ready(function(){
+    $('.menu ul li').hover(
+        function() {
+            $(this).addClass("active");
+            $(this).find('ul').stop(true, true);
+            $(this).find('ul').slideDown();
+        },
+        function() {
+            $(this).removeClass("active");
+            $(this).find('ul').slideUp('slow');
+        }
+    );
+});
+
+	</script>
+</body>
+
+</html>

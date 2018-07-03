@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+	<student>
+		<full_name>
+			<s_name id="sn1">Колущинский </s_name>
+			<f_name id="fn1">Константин </f_name>
+			<l_name id="ln1">Григориевич </l_name>
+		</full_name>
+		<score id="sc1">4.2</score>
+		<data id="dt1">1999</data>
+	</student>
+	<student>
+		<full_name>
+			<s_name id="sn2">Шурупов </s_name>
+			<f_name id="fn2">Тимофей </f_name>
+			<l_name id="ln2">Афанасиевич </l_name>
+		</full_name>
+		<score id="sc2">5.5</score>
+		<data id="dt2">1999</data>
+	</student>
+	<student>
+		<full_name>
+			<s_name id="sn3">Геремеш </s_name>
+			<f_name id="fn3">Юлиан </f_name>
+			<l_name id="ln3">Якубович </l_name>
+		</full_name>
+		<score id="sc3">7.2</score>
+		<data id="dt3">2000</data>
+	</student>
+</students>

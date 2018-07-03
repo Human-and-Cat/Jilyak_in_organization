@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Gravit.io -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 200 200" width="200" height="200">
+	<defs>
+		<clipPath id="_clipPath_cZ2PsOSPUekp5lsCb3Lu7wi7AlbJyV60">
+			<rect width="200" height="200"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#_clipPath_cZ2PsOSPUekp5lsCb3Lu7wi7AlbJyV60)">
+		<path d=" M 9 100 C 9 61.642 40.142 30.5 78.5 30.5 C 116.858 30.5 148 61.642 148 100 C 148 138.358 116.858 169.5 78.5 169.5 C 40.142 169.5 9 138.358 9 100 Z " fill="rgb(255,153,0)" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+		<rect x="100" y="14" width="64" height="64" transform="matrix(1,0,0,1,0,0)" fill="rgb(0,255,0)" fill-opacity="0.8" vector-effect="non-scaling-stroke" stroke-width="1" stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+		<path d=" M 78.5 83 C 78.5 65.891 92.391 52 109.5 52 C 126.609 52 140.5 65.891 140.5 83 C 140.5 100.109 126.609 114 109.5 114 C 92.391 114 78.5 100.109 78.5 83 Z " fill="rgb(235,235,235)" fill-opacity="0.75"/>
+	</g>
+</svg>

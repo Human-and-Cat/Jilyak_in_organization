@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+
+<body>
+<svg width="620" height="110">
+    <text x="30" y="90" fill="#ED6E46" font-size="50" font-family="'Leckerli One', cursive">This is text</text>
+</svg>
+<svg width="600" height="250">
+    <text x="30" y="80" fill="#46ed4c" font-size="50" rotate="20,0,5,30,10,50,5,10,65,5,35,6" transform="rotate(8)" font-family="'Leckerli One', cursive">This is text</text>
+</svg>
+<svg width="950" height="110">
+    <text x="30" y="90" fill="#da46ed" font-size="50" textLength="900" font-family="'Leckerli One', cursive">This is text</text>
+</svg>
+<svg width="775" height="400">
+    <text x="15" y="90" fill="#ED6E46" font-size="60" font-family="'Leckerli One', cursive">This       <tspan dy: dy="-30 10 10 10 10 10 10" fill="#bbc42a" font-size="50">is</tspan>
+        <tspan dy="50">Text</tspan>
+    </text>
+</svg>
+<svg width="620" height="200">
+    <defs>
+        <path id="testPath" d="M3.858,58.607 c16.784-5.985,33.921-10.518,51.695-12.99c50.522-7.028,101.982,0.51,151.892,8.283c17.83,2.777,35.632,5.711,53.437,8.628 c51.69,8.469,103.241,11.438,155.3,3.794c53.714-7.887,106.383-20.968,159.374-32.228c11.166-2.373,27.644-7.155,39.231-4.449" />
+    </defs>
+    <use xlink:href="#testPath" fill="none" stroke="#7aa20d" stroke-width="2"/>
+    <text x="2" y="40%" fill="#765373" font-size="20" font-family="'Lato', sans-serif">
+        <textPath xlink:href="#testPath" startOffset="20%">There are over 8,000 grape varieties worldwide.           
+        </textPath> 
+    </text> 
+</svg>
+<svg width="620" height="110">
+    <text x="30" y="90" 
+    style="font-family:'Leckerli One', cursive;
+             font-size: 50px;
+             stroke: #000000;
+             fill: #ED6E46;">This is text</text>
+</svg>
+</body>
+
+</html>

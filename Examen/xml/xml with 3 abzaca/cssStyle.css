@@ -1,0 +1,30 @@
+body {
+    margin: 2rem;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+p {
+    text-indent: 3rem;
+}
+
+.p1 {
+    font-family: cursive;
+    font-style: italic;
+    text-align: justify;
+}
+
+.p2 {
+    font-family: monospace;
+    font-style: normal;
+    text-align: center;
+}
+
+.p3 {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-style: oblique;
+    text-align: right;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="xex.js"></script>
+    <title>xex</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row box">
+            <button type="button" class="btn btn-outline-dark col-3" onclick="foo()">открыть</button>
+            <button type="button" class="btn btn-outline-dark col-3 offset-1" onclick="foo1()">ввести текст</button>
+            <button type="button" class="btn btn-outline-dark col-3 offset-1" onclick="foo2()">закрыть окно</button>
+        </div>
+        <br>
+        <div class="row box">
+            <button type="button" class="btn btn-outline-dark col-3" onclick="fun()">открыть 2 окно</button>
+            <button type="button" class="btn btn-outline-dark col-3 offset-1" onclick="fun1()">ввести текст</button>
+            <button type="button" class="btn btn-outline-dark col-3 offset-1" onclick="fun2()">закрыть окно 2</button>
+        </div>
+        <br>
+       <div class="row">
+           <table class="table table-dark text-center">
+               <thead>
+                   <th>Свойство</th>
+                   <th>Значение</th>
+               </thead>
+               <tbody>
+                   <script>
+                        tabl();
+                   </script>
+               </tbody>
+           </table>
+       </div>
+    </div>
+</body>
+</html>

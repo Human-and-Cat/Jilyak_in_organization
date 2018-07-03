@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE book[
+<!ELEMENT book (author)>
+<!ELEMENT author (#PCDATA)>
+<!ENTITY writer1 "Joanne Kyger">
+<!ENTITY bookName1 "ALL THIS EVERYDAY">
+<!ENTITY writer2 "Andy Spade">
+<!ENTITY bookName2 "LIKES">
+<!ENTITY writer3 "Max Bense">
+<!ENTITY bookName3 "MAX BILL">
+]>
+
+<book>
+    <author>&writer1; &bookName1;</author>
+    <author>&writer2; &bookName2;</author>
+    <author>&writer3; &bookName3;</author>
+</book>

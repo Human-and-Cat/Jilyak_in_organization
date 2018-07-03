@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="bootstrap.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="jcanvas.min.js"></script>
+	<script src="script.js"></script>
+</head>
+
+<body>
+
+	<form action="#" class="col-4 offset-0 col-xl-3 offset-xl-0" name="form">
+
+		<div class="form-row col-12">
+			<fieldset class="form-group col-12">
+				<legend class="col-form-label pt-0 text-center">Функции</legend>
+				<div id="func" class="text-center">
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="funct" id="func1" value="1" checked>
+						<label class="form-check-label" for="kurs1">x<sup>2</sup></label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="funct" id="func2" value="2">
+						<label class="form-check-label" for="kurs2">x<sup>3</sup></label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="funct" id="func3" value="3">
+						<label class="form-check-label" for="kurs3">sinx</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="funct" id="func4" value="4">
+						<label class="form-check-label" for="kurs4">cosx</label>
+					</div>
+				</div>
+			</fieldset>
+		</div>
+
+		<div class="form-row col-12 col-xl-8">
+			<div class="form-group col-12">
+				<label for="color">Цвет</label>
+				<select class="form-control" id="clr">
+						<option value="#ea0e0e"><p>Красный</p>
+						</option>
+						<option value="#000000"><p>Черный</p>
+						</option>
+						<option value="#0c9f23"><p>Зеленый</p>
+						</option>
+						<option value="#2d34ed"><p>Синий</p>
+						</option>
+					</select>
+			</div>
+		</div>
+
+		<div class="form-row col-12">
+			<button type="button" class="btn btn-primary col-5" id="btn">Submit</button>
+			<button type="button" class="btn btn-primary col-5 offset-1" onclick='window.location.reload()'>Reset</button>
+		</div>
+
+	</form>
+	<div class="container">
+		<div class="row graphicks col-xl-6 offset-xl-4">
+			<canvas id="graph" width="525" height="400">Ops!!!</canvas>
+		</div>
+	</div>
+
+
+</body>
+
+</html>

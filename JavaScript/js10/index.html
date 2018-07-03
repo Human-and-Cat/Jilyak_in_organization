@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Drag</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="jquery-ui.min.js"></script>
+</head>
+
+<body>
+	<div class="draggable">
+		<p id="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, eveniet?!</p>
+		<img src="img1.png" alt="kot" id="img">
+	</div>
+	<img src="img1.png" alt="kot" id="kote">
+	<img src="img1.png" alt="kot" id="kot">
+	<script>
+		$(document).ready(function() {
+			$(".draggable *").draggable();
+			$("#kote").click(function() {
+				$("#kote").animate({
+					left: '600px'
+				}, 500, function() {
+					$("#kote").animate({
+						left: '0px'
+					}, 500)
+				});
+			});
+			$("#kot").click(function() {
+				$("#kot").animate({
+					left: '200px',
+					top: '-100px'
+				}, 1500).animate({
+					left: '400px',
+					top: '200px'
+				}, 1500).animate({
+					left: '0px',
+					top: '0px'
+				}, 1500)
+			});
+		});
+
+	</script>
+</body>
+
+</html>

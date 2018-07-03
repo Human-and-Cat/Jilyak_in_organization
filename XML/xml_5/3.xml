@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+	<student>
+		<full_name>
+			<s_name id="sn1">Сигаева </s_name>
+			<f_name id="fn1">Ангелина </f_name>
+			<l_name id="ln1">Святославовна </l_name>
+		</full_name>
+		<score id="sc1">8.3</score>
+		<data id="dt1">1999</data>
+	</student>
+	<student>
+		<full_name>
+			<s_name id="sn2">Рутберг </s_name>
+			<f_name id="fn2">Лада </f_name>
+			<l_name id="ln2">Вадимовна </l_name>
+		</full_name>
+		<score id="sc2">7.2</score>
+		<data id="dt2">1999</data>
+	</student>
+	<student>
+		<full_name>
+			<s_name id="sn3">Пугачёва </s_name>
+			<f_name id="fn3">Екатерина </f_name>
+			<l_name id="ln3">Емельяновна </l_name>
+		</full_name>
+		<score id="sc3">9.0</score>
+		<data id="dt3">2000</data>
+	</student>
+</students>

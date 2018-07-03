@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+    <students>
+        <student>
+            <group>3</group>
+            <full_name>
+                <second_name>Беспалов </second_name>
+                <first_name>Ульян </first_name>
+                <last_name>Артемович </last_name>
+            </full_name>
+            <math>7</math>
+            <chemestry>6</chemestry>
+            <kar>4</kar>
+        </student>
+        <student>
+            <group>6</group>
+            <full_name>
+                <second_name>Колущинский </second_name>
+                <first_name>Константин </first_name>
+                <last_name>Григориевич </last_name>
+            </full_name>
+            <math>8</math>
+            <chemestry>8</chemestry>
+            <kar>9</kar>
+        </student>
+        <student>
+            <group>10</group>
+            <full_name>
+                <second_name>Молчанова </second_name>
+                <first_name>Лилия </first_name>
+                <last_name>Мефодиевна </last_name>
+            </full_name>
+            <math>7</math>
+            <chemestry>9</chemestry>
+            <kar>10</kar>
+        </student>
+    </students>

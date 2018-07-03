@@ -1,0 +1,80 @@
+body {
+	height: 2000px;
+}
+
+
+#kote {
+	position: relative;
+}
+
+#kot {
+	position: relative;
+}
+
+img {
+	display: block;
+}
+
+
+.graphicks {
+	margin-top: 20px;
+}
+
+.graphicks canvas {
+	background-color: #d9d6d6;
+}
+
+.menu {
+	width: 800px;
+	margin: 30px auto;
+}
+
+a:focus {
+	outline: none;
+}
+
+.menu ul,
+.menu ul li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	margin-right: 5px;
+}
+
+.menu ul li {
+	float: left;
+	position: relative;
+	width: 190px;
+}
+
+.menu ul li a {
+	display: block;
+	padding: 10px 35px;
+	margin: 1px 0px;
+	text-decoration: none;
+	border: 1px solid #999;
+	background-color: #42545d;
+	color: aliceblue;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.menu ul li a:HOVER {
+	color: aliceblue;
+}
+
+.menu ul li ul {
+	display: none;
+	position: absolute;
+	top: 48px;
+}
+
+.menu ul li ul li {
+	display: block;
+	border-top: 0px;
+	padding-left: 0px
+}
+
+.active {
+	background-color: #eee;
+}

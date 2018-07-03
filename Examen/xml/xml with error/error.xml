@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <full_name>
+            <second_name>Беспалов </second_name>
+            <first_name>Ульян </first_name>
+            <last_name>Артемович </last_name>
+        </full_name>
+        <score>7.6</score>
+        <date>2000</date>
+    </student>
+    <student>
+        <full_name>
+            <second_name>Колущинский </second_name>
+            <first_name>Константин </first_name>
+            <last_name>Григориевич </last_name>
+        </full_name>
+        <score>4.2</score>
+        <date>1999</Date>
+    </student>
+    <student>
+        <full_name>
+            <second_name>Молчанова </second_name>
+            <first_name>Лилия </first_name>
+            <last_name>Мефодиевна </last_name>
+        </full_name>
+        <score>7.4</score>
+        <date>1998</date>
+    </student>
+</students>

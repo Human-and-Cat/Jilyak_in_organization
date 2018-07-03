@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>laba7</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form action="#" class="col-6 offset-3" name="form">
+            <div class="header col-12" >
+                <h1 id="department">Факультет информационных технологий</h1>
+            </div>
+            <div class="form-row col-12" id="inputs">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Имя" id="youname" >
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Фамиия" id="yousname">
+                </div>
+            </div>
+            <div class="form-row col-12">
+                <div class="form-group col-3">
+                    <label for="spec">Специальность</label>
+                    <select class="form-control" id="youspec">
+                        <option value="ИСиТ">ИСиТ</option>
+                        <option value="ПОиТ">ПОиТ</option>
+                        <option value="ПОиБМС">ПОиБМС</option>
+                        <option value="ДЭиВи">ДЭиВи</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row col-12">
+                <fieldset class="form-group col-5" >
+                    <legend class="col-form-label pt-0">Курс</legend>
+                    <div id="mekurs">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="kurs" id="kurs1" value="1" checked>
+                            <label class="form-check-label" for="kurs1">1</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="kurs" id="kurs2" value="2">
+                            <label class="form-check-label" for="kurs2">2</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="kurs" id="kurs3" value="3">
+                            <label class="form-check-label" for="kurs3">3</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="kurs" id="kurs4" value="4">
+                            <label class="form-check-label" for="kurs4">4</label>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="form-row col-12">
+                <fieldest class="form-group col-12">
+                    <legend class="col-form-label pt-0">Предметы</legend>
+                    <div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="checkbox1" value="ОИТ">
+                            <label class="form-check-label" for="checkbox1">ОИТ</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="checkbox2" value="ОАП">
+                            <label class="form-check-label" for="checkbox2">ОАП</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="checkbox3" value="История">
+                            <label class="form-check-label" for="checkbox3">История</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="checkbox4" value="Физика">
+                            <label class="form-check-label" for="checkbox4">Физика</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="checkbox5" value="Математика">
+                            <label class="form-check-label" for="checkbox5">Математика</label>
+                        </div>
+                    </div>
+                </fieldest>
+            </div>
+            <div class="form-row col-12">
+                <button type="submit" class="btn btn-primary col-2" >Submit</button>
+                <button type="reset" class="btn btn-primary col-2 offset-1">Reset</button>
+            </div>
+            <br>
+            <div class="form-row col-12">
+                <button type="button" class="btn btn-primary col-3" onclick="foo()">Напечатать</button>
+                <!--<a class="btn btn-primary col-3" href="dop.html" role="button">Напечатать 3</a>-->
+            </div>
+        </form>
+        <form action="#" class="col-6 offset-3 form2" name="form2">
+            <div>
+               <h4 class="text-center">Форма с предматами с первой формы</h4>
+                <ul>
+                    <script>
+                        fun();
+                    </script>
+                </ul>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

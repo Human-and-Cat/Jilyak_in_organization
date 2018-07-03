@@ -1,0 +1,60 @@
+.box {
+	position: absolute;
+	color: black;
+	text-align: center;
+	padding: 20px;
+}
+
+#kott {
+	position: absolute;
+}
+
+#kot {
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.graphicks {
+	margin-top: 20px;
+	background-color: #d9d6d6;
+	width: 400px;
+	height: 400px;
+}
+
+#graph {
+	width: 100%;
+	height: 100%;
+}
+
+.menuI {
+	display: block;
+	width: 100px;
+	margin: 4px;
+	padding: 4px 10px;
+	font-family: Tahoma, sans-serif;
+	color: #fff;
+	background: rgb(7, 217, 217);
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav {
+	margin-top: 10px;
+	text-align: center;
+}
+
+li {
+	list-style-type: none;
+}
+
+.menuI .sub-nav {
+	position: absolute;
+	background: rgb(7, 217, 217);
+	padding: 7px 14px;
+	width: 100px;
+	right: 0px;
+}

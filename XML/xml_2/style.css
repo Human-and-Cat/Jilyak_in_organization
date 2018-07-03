@@ -1,0 +1,24 @@
+SPECIALIZATION {
+	text-align: center;
+	width: 400px;
+	margin: 0 auto;
+}
+
+POIT {
+	border: solid 2px black;
+	background-color: aliceblue;
+	color: #343434;
+	margin: 10px;
+	display: block;
+}
+
+UNIVERSITY {
+	display: block;
+}
+
+PASSING,
+PAGES,
+CITY {
+	display: block;
+	border-top: solid 2px black;
+}

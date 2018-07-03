@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+	<SPECIALIZATION>
+		<POIT>
+			<UNIVERSITY>Гомельский государственный университет им. Ф. Скорины</UNIVERSITY>
+			<PASSING>
+				<BUDGET>313</BUDGET>
+				<PAY>193</PAY>
+			</PASSING>
+			<PAGES>24</PAGES>
+			<CITY>Гомель</CITY>
+		</POIT>
+		<POIT>
+			<UNIVERSITY>Белорусский государственный технологический университет</UNIVERSITY>
+			<PASSING>
+				<BUDGET>305</BUDGET>
+				<PAY>220</PAY>
+			</PASSING>
+			<PAGES>90</PAGES>
+			<CITY>Минск</CITY>
+		</POIT>
+		<POIT>
+			<UNIVERSITY>Белорусский государственный университет информатики и радиоэлектроники</UNIVERSITY>
+			<PASSING>
+				<BUDGET>371</BUDGET>
+				<PAY></PAY>
+			</PASSING>
+			<PAGES>180</PAGES>
+			<CITY>Минск</CITY>
+		</POIT>
+	</SPECIALIZATION>

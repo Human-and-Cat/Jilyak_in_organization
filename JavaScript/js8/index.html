@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>laba 8</title>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<p class="col-10 offset-1 text-center"> Создать программу на JS, изменяющую <span id="zad1">цвет</span> слова в тексте при наведении курсора мыши </p>
+			<p class="col-12 text-center">Создать программу на JS, изменяющую <span id="zad2" onclick="foo1()">размер</span> шрифта слова щелчком мыши.</p>
+			<p class="col-6 offset-3 text-center">А эти круги ведь на самом деле неподвижны </p>
+		</div>
+		<div class="row box-img">
+			<img src="img2.jpg" alt="picture" id="zad3" onclick="foo2()" onmouseover="foo40()" onmouseout="foo41()">
+		</div>
+		<div class="row">
+			<p class="col-12 text-center" onclick="foo3()" id="zad4">Взгляните на эти зеленые полоски и покрутите головой. Двигаются?</p>
+			<p id="zad6" oncontextmenu="foo5()">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Встретил скатился коварных ты сбить курсивных, путь жаренные грустный подпоясал ручеек языкового буквенных, lorem, если над. Страна необходимыми, маленький заманивший.</p>
+		</div>
+	</div>
+	<!--<script src="script.js"></script>-->
+	<script>
+		$(document).ready(function(){
+    $("#zad1").mouseover(function(){$("#zad1").css("color","red")});
+		$("#zad2").click(function(){$("#zad2").css("font-size","30px")});
+		$("#zad3").click(function(){$("#zad3").attr("src","img3.jpg")}).mouseover(function(){
+			$("#zad3").css("width","1000")}).mouseout(function(){
+			$("#zad3").css("width","650")});
+		$("#zad4").click(function(){
+			$("#zad4").replaceWith(function(index,oldHTML){
+			return $("<img src='img3.jpg' alt='picture'>").html(oldHTML);
+		});
+		});
+		$("#zad6").dblclick(function(){
+			$("#zad6").attr("style","border:solid 1px red");
+		});
+});
+	</script>
+</body>
+
+</html>

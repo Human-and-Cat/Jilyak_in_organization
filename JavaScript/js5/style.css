@@ -1,0 +1,63 @@
+.edit {
+    font-family: "arial black";
+    color: black;
+}
+
+body {
+    background: #edeaea;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #000000;
+}
+
+a:visited {
+    color: rgb(43, 57, 136);
+}
+
+a:active {
+    color: #81b7b7;
+}
+
+a:hover {
+    color: rgba(84, 92, 98, 0.75)
+}
+
+.font1 {
+    font-family: "calibri";
+    font-size: 18px;
+    color: #937846;
+}
+
+.font2 {
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    color: #800000;
+}
+
+.font3 {
+    font-family: "times new roman";
+    font-size: 14px;
+    color: #2a69a7;
+}
+
+.font4 {
+    color: #001dff;
+}
+
+.font0 {
+    color: #b18115
+}
+
+.table {
+    color: #b9d9ce;
+}
+
+.table a {
+    color: #b9d9ce;
+}
+
+td img {
+    padding-left: 43%;
+}

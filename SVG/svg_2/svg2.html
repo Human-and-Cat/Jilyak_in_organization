@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body {
+			margin-top: 40px;
+			background-color: aqua;
+		}
+
+		#z {
+			display: block;
+			margin: 100px auto;
+		}
+
+	</style>
+</head>
+
+<body>
+	<svg height="200" width="760">
+		<circle id="c1" r="90" cx="100" cy="100" fill="#ff8900" stroke-width="2" stroke="black" />
+		<animate xlink:href="#c1" attributeName="cx" from="100" to="650" dur="10s" begin="click" fill="freeze" values="100;650;100" keyTimes="0;0.5;1"></animate>
+		<animate xlink:href="#c1" attributeName="fill" from="#ff8900" to="#ff8900" dur="10s" values="#ff8900;#ef0d0d;#ebff00;#00ff14;#ff00a7;#ff8900" keyTimes="0;0.2;0.4;0.6;0.8;1" begin="click" fill="freeze"></animate>
+	</svg>
+	<svg width="200" height="200">
+		<circle id="c2" r="90" cx="100" cy="100" fill="coral" stroke="darkcyan" stroke-width="2" />
+		<animate xlink:href="#c2" attributeName="r" from="90" to="10" dur="8s" begin="click" values="90;10;100;90" keyTimes="0;0.5;0.9;1"></animate>
+	</svg>
+	<svg width="350" height="200">
+		<circle id="c3" r="90" cx="175" cy="100" fill="#36ba45" stroke="#a003f4" stroke-width="4" />
+		<animate xlink:href="#c3" attributeName="stroke-width" from="2" to="2" dur="8s" begin="click" values="4;6;8;10;12;11;9;7;5;0;4" keyTimes="0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9;1"></animate>
+	</svg>
+	<svg id="z" height="100" width="100">
+		<path id="cog" d="M50 6.25c27.614 0 50 18.188 50 40.625 0 22.437-22.386 40.625-50 40.625-2.652 0-5.255-0.169-7.795-0.493-10.74 10.74-23.56 12.666-35.955 12.949v-2.629c6.693-3.279 12.5-9.252 12.5-16.078 0-0.953-0.074-1.888-0.211-2.802-11.308-7.448-18.539-18.824-18.539-31.573 0-22.437 22.386-40.625 50-40.625z"/>
+		<animateTransform attributeName="transform" type="scale" from="1" to="1" begin="click" dur="8s" values="1;3;5;6;4;2;0;1" keyTimes="0;0.1;0.3;0.5;0.7;0.8;0.9;1"></animateTransform>
+	</svg>
+	<svg height="200" width="200">
+		<circle id="c4" r="90" cx="100" cy="100" fill="#0c19b2" stroke-width="4" stroke="#313131" />
+		<animate xlink:href="#c4" attributeName="stroke-dashoffset" from="0" to="565" dur="20s" begin="click" fill="freeze" keyTimes="0;0.5;1" values="0;565;0"></animate>
+		<animate xlink:href="#c4" attributeName="stroke-dasharray" from="565" to="565" dur="20s" begin="click" fill="freeze" keyTimes="0;0.5;1" values="565;0;565"></animate>
+	</svg>
+</body>
+
+</html>
